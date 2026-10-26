@@ -25,17 +25,20 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/User'
-              examples:
-                Get User Alice Smith:
-                  value:
-                    id: 142
-                    firstName: Alice
-                    lastName: Smith
-                    email: alice.smith@gmail.com
-                    dateOfBirth: '1997-10-31'
-                    emailVerified: true
-                    signUpDate: '2019-08-24'
+                type: object
+                properties:
+                  hjhdhf:
+                    type: string
+                    x-stoplight:
+                      id: xg7qnrnpc4tl7
+                  jhkhkh:
+                    type: string
+                    x-stoplight:
+                      id: dx43hxd9ue8ie
+                  jgjg:
+                    type: string
+                    x-stoplight:
+                      id: holm2cfz28fr3
         '404':
           description: User Not Found
       operationId: get-users-userId
