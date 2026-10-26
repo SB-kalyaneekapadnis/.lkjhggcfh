@@ -4,6 +4,7 @@ x-stoplight:
 info:
   title: hggjg
   version: '1.0'
+  description: oiuytr
 servers:
   - url: 'http://localhost:3000'
 paths:
