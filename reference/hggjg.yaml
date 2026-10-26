@@ -26,6 +26,10 @@ paths:
             application/json:
               schema:
                 type: object
+                required:
+                  - hjhdhf
+                  - jhkhkh
+                  - jgjg
                 properties:
                   hjhdhf:
                     type: string
@@ -35,6 +39,7 @@ paths:
                     type: string
                     x-stoplight:
                       id: dx43hxd9ue8ie
+                    description: jgfghjg
                   jgjg:
                     type: string
                     x-stoplight:
