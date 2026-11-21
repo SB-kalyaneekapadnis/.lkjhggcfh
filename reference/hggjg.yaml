@@ -5,11 +5,17 @@ info:
   title: hggjg
   version: '1.0'
   description: oiuytr fyjh
+  summary: .lkf
 servers:
   - url: 'http://localhost:3000'
 paths:
   '/users/{userId}':
     parameters:
+      - schema:
+          type: string
+        name: userId
+        in: path
+        required: true
       - schema:
           type: integer
         name: userId
@@ -104,6 +110,13 @@ paths:
         description: Patch user properties to update.
       x-stoplight:
         id: c50yrlhmncqgk
+    head:
+      summary: Your HEAD endpoint
+      tags: []
+      responses: {}
+      operationId: head-users-userId
+      x-stoplight:
+        id: lptrvhbjlxvl1
   /user:
     post:
       summary: Create New User
