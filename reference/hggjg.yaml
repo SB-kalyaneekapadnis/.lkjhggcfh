@@ -113,7 +113,15 @@ paths:
     head:
       summary: Your HEAD endpoint
       tags: []
-      responses: {}
+      responses:
+        '101':
+          description: Switching Protocols
+        '202':
+          description: Accepted
+        '420':
+          description: Enhance Your Calm (Twitter)
+        '510':
+          description: Not Extended
       operationId: head-users-userId
       x-stoplight:
         id: lptrvhbjlxvl1
